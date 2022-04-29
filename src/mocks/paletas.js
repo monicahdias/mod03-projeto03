@@ -1,183 +1,183 @@
 export const paletas = [
   {
     titulo: "Açaí com Leite Condensado",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/acai-com-leite-condensado.png"),
-    preco: 10.0,
-    sabor: "Açaí",
+    photo: require("../assets/images/acai-com-leite-condensado.png"),
+    price: 14.0,
+    flavor: "Açaí",
     recheio: "Leite Condensado",
     possuiRecheio: true,
   },
   {
     titulo: "Banana com Nutella",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/banana-com-nutella.png"),
-    preco: 10.0,
-    sabor: "Banana",
+    photo: require("../assets/images/banana-com-nutella.png"),
+    price: 14.0,
+    flavor: "Banana",
     recheio: "Nutella",
     possuiRecheio: true,
   },
   {
     titulo: "Chocolate Belga",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/chocolate-belga.png"),
-    preco: 7.0,
-    sabor: "Chocolate Belga",
+    photo: require("../assets/images/chocolate-belga.png"),
+    price: 10.0,
+    flavor: "Chocolate Belga",
     possuiRecheio: false,
   },
   {
     titulo: "Chocolate Belga com Brigadeiro",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/chocolate-belga-com-brigadeiro.png"),
-    preco: 10.0,
-    sabor: "Chocolate Belga",
+    photo: require("../assets/images/chocolate-belga-com-brigadeiro.png"),
+    price: 14.0,
+    flavor: "Chocolate Belga",
     recheio: "Brigadeiro",
     possuiRecheio: true,
   },
   {
     titulo: "Chocolate Branco",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/chocolate-branco.png"),
-    preco: 7.0,
-    sabor: "Chocolate Branco",
+    photo: require("../assets/images/chocolate-branco.png"),
+    price: 10.0,
+    flavor: "Chocolate Branco",
     possuiRecheio: false,
   },
   {
     titulo: "Coco",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/coco.png"),
-    preco: 7.0,
-    sabor: "Coco",
+    photo: require("../assets/images/coco.png"),
+    price: 10.0,
+    flavor: "Coco",
     possuiRecheio: false,
   },
   {
     titulo: "Coco com Doce de Leite",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/coco-com-doce-de-leite.png"),
-    preco: 10.0,
-    sabor: "Coco",
+    photo: require("../assets/images/coco-com-doce-de-leite.png"),
+    price: 14.0,
+    flavor: "Coco",
     recheio: "Doce de Leite",
     possuiRecheio: true,
   },
   {
     titulo: "Cookies",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/cookies.png"),
-    preco: 7.0,
-    sabor: "Cookies",
+    photo: require("../assets/images/cookies.png"),
+    price: 10.0,
+    flavor: "Cookies",
     possuiRecheio: false,
   },
   {
     titulo: "Doce de Leite com Doce de Leite",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/doce-de-leite-com-doce-de-leite.png"),
-    preco: 10.0,
-    sabor: "Doce de Leite",
+    photo: require("../assets/images/doce-de-leite-com-doce-de-leite.png"),
+    price: 14.0,
+    flavor: "Doce de Leite",
     recheio: "Doce de Leite",
     possuiRecheio: true,
   },
   {
     titulo: "Limão",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/limao.png"),
-    preco: 7.0,
-    sabor: "Limão",
+    photo: require("../assets/images/limao.png"),
+    price: 10.0,
+    flavor: "Limão",
     possuiRecheio: false,
   },
   {
     titulo: "Maracujá",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/maracuja.png"),
-    preco: 7.0,
-    sabor: "Maracujá",
+    photo: require("../assets/images/maracuja.png"),
+    price: 10.0,
+    flavor: "Maracujá",
     possuiRecheio: false,
   },
   {
     titulo: "Maracujá com Leite Condensado",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/maracuja-com-leite-condensado.png"),
-    preco: 10.0,
-    sabor: "Maracujá",
+    photo: require("../assets/images/maracuja-com-leite-condensado.png"),
+    price: 14.0,
+    flavor: "Maracujá",
     recheio: "Leite Condensado",
     possuiRecheio: true,
   },
   {
     titulo: "Milho Verde",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/milho-verde.png"),
-    preco: 7.0,
-    sabor: "Milho Verde",
+    photo: require("../assets/images/milho-verde.png"),
+    price: 10.0,
+    flavor: "Milho Verde",
     possuiRecheio: false,
   },
   {
     titulo: "Morango",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/morango.png"),
-    preco: 7.0,
-    sabor: "Morango",
+    photo: require("../assets/images/morango.png"),
+    price: 10.0,
+    flavor: "Morango",
     possuiRecheio: false,
   },
   {
     titulo: "Morango com Leite Condensado",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/morango-com-leite-condensado.png"),
-    preco: 10.0,
-    sabor: "Morango",
+    photo: require("../assets/images/morango-com-leite-condensado.png"),
+    price: 14.0,
+    flavor: "Morango",
     recheio: "Leite Condensado",
     possuiRecheio: true,
   },
   {
     titulo: "Morango com Nutella",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/morango-com-nutella.png"),
-    preco: 10.0,
-    sabor: "Morango",
+    photo: require("../assets/images/morango-com-nutella.png"),
+    price: 14.0,
+    flavor: "Morango",
     recheio: "Nutella",
     possuiRecheio: true,
   },
   {
     titulo: "Ninho com Nutella",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/ninho-com-nutella.png"),
-    preco: 10.0,
-    sabor: "Ninho",
+    photo: require("../assets/images/ninho-com-nutella.png"),
+    price: 14.0,
+    flavor: "Ninho",
     recheio: "Nutella",
     possuiRecheio: true,
   },
   {
     titulo: "Ninho com Ovomaltine",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/ninho-com-ovomaltine.png"),
-    preco: 10.0,
-    sabor: "Ninho",
+    photo: require("../assets/images/ninho-com-ovomaltine.png"),
+    price: 14.0,
+    flavor: "Ninho",
     recheio: "Ovomaltine",
     possuiRecheio: true,
   },
   {
     titulo: "Uva",
-    descricao:
+    description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-    foto: require("../assets/images/uva.png"),
-    preco: 7.0,
-    sabor: "Uva",
+    photo: require("../assets/images/uva.png"),
+    price: 10.0,
+    flavor: "Uva",
     possuiRecheio: false,
   },
 ];
