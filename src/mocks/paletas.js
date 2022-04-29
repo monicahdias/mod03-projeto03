@@ -1,26 +1,26 @@
 export const paletas = [
   {
-    titulo: "Açaí com Leite Condensado",
+    title: "Açaí com Leite Condensado",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/acai-com-leite-condensado.png"),
     price: 14.0,
     flavor: "Açaí",
-    recheio: "Leite Condensado",
+    filling: "Leite Condensado",
     possuiRecheio: true,
   },
   {
-    titulo: "Banana com Nutella",
+    title: "Banana com Nutella",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/banana-com-nutella.png"),
     price: 14.0,
     flavor: "Banana",
-    recheio: "Nutella",
+    filling: "Nutella",
     possuiRecheio: true,
   },
   {
-    titulo: "Chocolate Belga",
+    title: "Chocolate Belga",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/chocolate-belga.png"),
@@ -29,17 +29,17 @@ export const paletas = [
     possuiRecheio: false,
   },
   {
-    titulo: "Chocolate Belga com Brigadeiro",
+    title: "Chocolate Belga com Brigadeiro",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/chocolate-belga-com-brigadeiro.png"),
     price: 14.0,
     flavor: "Chocolate Belga",
-    recheio: "Brigadeiro",
+    filling: "Brigadeiro",
     possuiRecheio: true,
   },
   {
-    titulo: "Chocolate Branco",
+    title: "Chocolate Branco",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/chocolate-branco.png"),
@@ -48,7 +48,7 @@ export const paletas = [
     possuiRecheio: false,
   },
   {
-    titulo: "Coco",
+    title: "Coco",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/coco.png"),
@@ -57,17 +57,17 @@ export const paletas = [
     possuiRecheio: false,
   },
   {
-    titulo: "Coco com Doce de Leite",
+    title: "Coco com Doce de Leite",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/coco-com-doce-de-leite.png"),
     price: 14.0,
     flavor: "Coco",
-    recheio: "Doce de Leite",
+    filling: "Doce de Leite",
     possuiRecheio: true,
   },
   {
-    titulo: "Cookies",
+    title: "Cookies",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/cookies.png"),
@@ -76,17 +76,17 @@ export const paletas = [
     possuiRecheio: false,
   },
   {
-    titulo: "Doce de Leite com Doce de Leite",
+    title: "Doce de Leite com Doce de Leite",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/doce-de-leite-com-doce-de-leite.png"),
     price: 14.0,
     flavor: "Doce de Leite",
-    recheio: "Doce de Leite",
+    filling: "Doce de Leite",
     possuiRecheio: true,
   },
   {
-    titulo: "Limão",
+    title: "Limão",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/limao.png"),
@@ -95,7 +95,7 @@ export const paletas = [
     possuiRecheio: false,
   },
   {
-    titulo: "Maracujá",
+    title: "Maracujá",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/maracuja.png"),
@@ -104,17 +104,17 @@ export const paletas = [
     possuiRecheio: false,
   },
   {
-    titulo: "Maracujá com Leite Condensado",
+    title: "Maracujá com Leite Condensado",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/maracuja-com-leite-condensado.png"),
     price: 14.0,
     flavor: "Maracujá",
-    recheio: "Leite Condensado",
+    filling: "Leite Condensado",
     possuiRecheio: true,
   },
   {
-    titulo: "Milho Verde",
+    title: "Milho Verde",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/milho-verde.png"),
@@ -123,7 +123,7 @@ export const paletas = [
     possuiRecheio: false,
   },
   {
-    titulo: "Morango",
+    title: "Morango",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/morango.png"),
@@ -132,47 +132,47 @@ export const paletas = [
     possuiRecheio: false,
   },
   {
-    titulo: "Morango com Leite Condensado",
+    title: "Morango com Leite Condensado",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/morango-com-leite-condensado.png"),
     price: 14.0,
     flavor: "Morango",
-    recheio: "Leite Condensado",
+    filling: "Leite Condensado",
     possuiRecheio: true,
   },
   {
-    titulo: "Morango com Nutella",
+    title: "Morango com Nutella",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/morango-com-nutella.png"),
     price: 14.0,
     flavor: "Morango",
-    recheio: "Nutella",
+    filling: "Nutella",
     possuiRecheio: true,
   },
   {
-    titulo: "Ninho com Nutella",
+    title: "Ninho com Nutella",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/ninho-com-nutella.png"),
     price: 14.0,
     flavor: "Ninho",
-    recheio: "Nutella",
+    filling: "Nutella",
     possuiRecheio: true,
   },
   {
-    titulo: "Ninho com Ovomaltine",
+    title: "Ninho com Ovomaltine",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/ninho-com-ovomaltine.png"),
     price: 14.0,
     flavor: "Ninho",
-    recheio: "Ovomaltine",
+    filling: "Ovomaltine",
     possuiRecheio: true,
   },
   {
-    titulo: "Uva",
+    title: "Uva",
     description:
       "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
     photo: require("../assets/images/uva.png"),
