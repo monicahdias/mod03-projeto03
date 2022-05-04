@@ -2,6 +2,7 @@ import "./Navbar.css";
 
 import sacola from "assets/icons/sacola.svg";
 import logo from "assets/logo.svg";
+import paleta from "assets/icons/paleta.svg";
 
 function Navbar() {
   return (
