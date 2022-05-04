@@ -5,7 +5,7 @@ import PaletaDetalhesModal from "components/PaletaDetalhesModal/PaletaDetalhesMo
 
 import "./PaletaLista.css";
 
-function PaletaLista({ paletaCriada }) {
+function PaletaLista({ paletaCriada, mode }) {
   const [paletas, setPaletas] = useState([]);
   const [paletaSelecionada, setPaletaSelecionada] = useState({});
   const [paletaModal, setPaletaModal] = useState(false);
