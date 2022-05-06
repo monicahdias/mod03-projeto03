@@ -115,3 +115,7 @@
 .Paleta--ativa {
   background: #9400d3;
 }
+
+.Paleta--deletar {
+  background: rgba(211, 0, 0);
+}
