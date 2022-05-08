@@ -1,4 +1,4 @@
-import { Api } from "Helpers/Api";
+import { Api } from "helpers/Api";
 
 const parseResponse = (response) => response.json();
 

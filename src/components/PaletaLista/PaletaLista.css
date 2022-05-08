@@ -15,3 +15,13 @@
     grid-template-columns: 1fr;
   }
 }
+
+.PaletaLista-filtro {
+  margin-bottom: 20px;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+  padding: 2px 10px;
+}
