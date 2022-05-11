@@ -1,5 +1,7 @@
 # Projeto 04 do Módulo 04 - El Geladon
 
+## Deployment: https://elgeladon-react-hrlk05gua-monicahdias.vercel.app/
+
 ## Link do backend do projeto: https://github.com/monicahdias/mod03-projeto02-backend.git
 
 ![image](https://user-images.githubusercontent.com/97922536/167302075-3e3571ee-5d35-4f15-a31a-d79afd17352c.png)
