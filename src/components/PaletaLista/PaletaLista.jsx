@@ -88,6 +88,7 @@ function PaletaLista({
   }, [paletaEditada, paletaRemovida]);
 
   useEffect(() => {
+    console.log(paletaCriada, "Rodou useEffect PaletaLista");
     if (
       paletaCriada &&
       !paletas.map(({ id }) => id).includes(paletaCriada.id)

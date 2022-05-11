@@ -13,6 +13,7 @@ function Home() {
   const [canShowAdicionaPaletaModal, setCanShowAdicionaPaletaModal] =
     useState(false);
   const [paletaParaAdicionar, setPaletaParaAdicionar] = useState();
+
   const [modoAtual, setModoAtual] = useState(ActionMode.NORMAL);
   const [paletaParaEditar, setPaletaParaEditar] = useState();
   const [paletaParaDeletar, setPaletaParaDeletar] = useState();
@@ -76,7 +77,11 @@ function Home() {
             paletaToUpdate={paletaParaEditar}
             onUpdatePaleta={(paleta) => setPaletaEditada(paleta)}
             closeModal={handleCloseModal}
-            onCreatePaleta={(paleta) => setPaletaParaAdicionar(paleta)}
+            onCreatePaleta={(paleta) => {
+              setPaletaParaAdicionar(paleta);
+              console.log(paleta);
+              console.log(paletaParaAdicionar);
+            }}
           />
         )}
         {paletaParaDeletar && (

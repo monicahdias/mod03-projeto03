@@ -30,6 +30,7 @@ function AdicionaEditaPaletaModal({
         state.flavor.length &&
         String(state.price).length
     );
+    console.log(response);
 
     setCanDisable(response);
   };
@@ -58,15 +59,21 @@ function AdicionaEditaPaletaModal({
     };
 
     const serviceCall = {
-      [ActionMode.NORMAL]: () => PaletaService.create(paleta),
+      [ActionMode.NORMAL]: () =>
+        PaletaService.create({ ...paleta, price: parseFloat(paleta.price) }),
       [ActionMode.ATUALIZAR]: () =>
         PaletaService.updateById(paletaToUpdate?.id, paleta),
     };
 
     const response = await serviceCall[mode]();
+    console.log(response);
 
     const actionResponse = {
-      [ActionMode.NORMAL]: () => onCreatePaleta(response),
+      [ActionMode.NORMAL]: () => {
+        const res = onCreatePaleta(response);
+        console.log(res);
+      },
+
       [ActionMode.ATUALIZAR]: () => onUpdatePaleta(response),
     };
 
@@ -79,6 +86,7 @@ function AdicionaEditaPaletaModal({
       description: "",
       photo: "",
     };
+
     setState(reset);
     closeModal();
   };
